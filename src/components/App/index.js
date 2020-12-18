@@ -49,7 +49,9 @@ class App extends Component {
 
     return (
       <Fragment>
-        <Header />
+        {/* <Header /> */}
+        <br/>
+        <br/>
         {!isLoading && !isQuizStart && <Main startQuiz={this.startQuiz} />}
         {!isLoading && isQuizStart && (
           <Quiz
